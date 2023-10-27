@@ -1,0 +1,138 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1440px;
+  height: 800px;
+  background-color: #f0f0f0;
+}
+
+.container {
+  width: 600px;
+  height: 450px;
+  display: flex;
+  justify-content: flex-end; /* Выравниваем контейнер по правому краю */
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.product-info {
+  display: flex;
+  width: 600px;
+  height: 450px;
+}
+
+.product-image {
+  width: 300px;
+  height: 450px;
+}
+
+.product-details {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+  
+  .product-card {
+    display: flex;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .product-image-container {
+    flex: 1; /* Занимает всю левую часть */
+  }
+  
+  .product-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .product-details {
+    flex: 2; /* Занимает всю правую часть */
+    padding: 20px;
+  }
+
+  .product-subtitle {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500; /* medium начертание */
+    font-size: 12px;
+    color: #6C7289;
+    letter-spacing: 5px;
+    margin-bottom: 1em; /* добавляем отступ между абзацами */
+  }
+
+  .product-title {
+    font-family: 'Fraunces', sans-serif;
+    font-size: 32px;
+    color: #1C232B;
+    width: 236px;
+    height: 96px;
+  }
+
+  .product-description {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500; /* medium начертание */
+    font-size: 14px;
+    color: #6C7289;
+    line-height: 23px;
+    margin-bottom: 1em; /* добавляем отступ между абзацами */
+    width: 237px;
+    height: 92px;
+  }
+
+  .price-info {
+    display: flex;
+    align-items: center; /* Выравниваем по вертикали по центру */
+  }
+  
+  .discount-price {
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    color: #000;
+    margin-right: 20px; /* Добавляем отступ между ценами */
+  }
+  
+  .original-price {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 23px;
+    color: #6C7289;
+    text-decoration: line-through;
+  }
+
+  .add-to-cart-button {
+    background-color: #3D8168;
+    width: 236px;
+    height: 48px;
+    border-radius: 20px; /* Произвольное значение для смешанных углов */
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid #fff; /* Белая обводка */
+  }
+  
+  .add-to-cart-button img {
+    width: 14.39px;
+    height: 16px;
+    margin-right: 5px;
+  }
